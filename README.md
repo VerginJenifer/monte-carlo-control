@@ -19,7 +19,7 @@ The problem is to apply the Monte Carlo Control algorithm to the Frozen Lake env
    
    b.) For each state-action pair(s,a) in the episode:
    
-       i. Calculate G (return) for that (s, a) pair
+      i. Calculate G (return) for that (s, a) pair
    
       ii. Append G to returns(s, a)
    
