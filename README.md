@@ -8,13 +8,13 @@ The problem is to apply the Monte Carlo Control algorithm to the Frozen Lake env
 
 ## MONTE CARLO CONTROL ALGORITHM
 
-1.Initialize Q(s, a) arbitrarily for all state-action pairs
+1. Initialize Q(s, a) arbitrarily for all state-action pairs
 
-2.Initialize returns(s, a) to empty for all state-action pairs
+2. Initialize returns(s, a) to empty for all state-action pairs
 
-3.Initialize policy π(s) to be arbitrary (e.g., ε-greedy)
+3. Initialize policy π(s) to be arbitrary (e.g., ε-greedy)
 
-4.For each episode:
+4. For each episode:
    a. Generate an episode using policy π
    b. For each state-action pair (s, a) in the episode:
        i. Calculate G (return) for that (s, a) pair
