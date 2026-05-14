@@ -16,11 +16,17 @@ The problem is to apply the Monte Carlo Control algorithm to the Frozen Lake env
 
 4. For each episode:
    a.) Generate an episode using poilcy π
+   
    b.) For each state-action pair(s,a) in the episode:
+   
        i. Calculate G (return) for that (s, a) pair
+   
       ii. Append G to returns(s, a)
+   
      iii. Calculate the average of returns(s, a)
+   
       iv. Update Q(s, a) using the average return
+   
     c.) Update policy π(s) based on Q(s, a)
 
 ## MONTE CARLO CONTROL FUNCTION
